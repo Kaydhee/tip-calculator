@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- CUSTOM CSS LINK -->
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <section class="container">
+    <section class="hero__section">
+      <h1>SPLI <br> TTER</h1>
+
+      <section class="card">
+        <section class="card__left">
+
+          <form>
+          <label for="bill">Bill</label>
+          <div class="bill">
+            <h4>$</h4>
+            <input type="text" placeholder="                                 0" required id="bill">
+          </div>
+          </form>
+          
+          <div class="btn__box">
+            <h4>Select Tip %</h4>
+            
+            <button class="btn five">5%</button>
+            <button class="btn ten">10%</button>
+            <button class="btn fifteen">15%</button> <br>
+            <button class="btn twenty">25%</button>
+            <button class="btn fifty">50%</button>
+            <button class="btn custom__btn">Custom</button>
+          </div>
+
+          <label for="people">Number of People</label>
+          <div class="people">
+            <img src="./images/icon-person.svg" alt="Profile icon">
+            <input type="text" placeholder="                                  0" required id="people">
+          </div>
+        </section>
+
+        <section class="card__right">
+          <div class="return">
+            <small>  Tip Amount <br>
+             <span> / person </span>
+            </small>
+
+            <p id="total__tip">$0</p>
+          </div>
+
+          <div class="return">
+            <small>  Total <br>
+             <span> / person </span>
+            </small>
+
+            <p id="total__people">$0</p>
+          </div>
+
+          <button class="btn reset__btn" id="reset__btn">Reset</button>
+        </section>
+      </section>
+
+      </section>
+    </section>
+  </header>
+
+  
+
+
+
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Kaydhee</a>.
+  </div>
+  <!-- CUSTOM JS LINK -->
+  <script src="script.js"></script>
+</body>
+</html>
